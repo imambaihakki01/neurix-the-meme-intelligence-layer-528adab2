@@ -15,8 +15,8 @@ export function Footer() {
 
           <ul className="flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <li><a href="#whitepaper" className="hover:text-soft-cyan transition-colors">Whitepaper</a></li>
-            <li><a href="#community" className="hover:text-soft-cyan transition-colors">Telegram</a></li>
-            <li><a href="#community" className="hover:text-soft-cyan transition-colors">Twitter</a></li>
+            <li><a href="https://t.me/neurixoffical" target="_blank" rel="noopener noreferrer" className="hover:text-soft-cyan transition-colors">Telegram</a></li>
+            <li><a href="https://x.com/neurixoffical" target="_blank" rel="noopener noreferrer" className="hover:text-soft-cyan transition-colors">Twitter</a></li>
             <li><a href="#community" className="hover:text-soft-cyan transition-colors">Disclaimer</a></li>
           </ul>
 

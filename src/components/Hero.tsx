@@ -52,7 +52,9 @@ export function Hero() {
           className="flex flex-wrap items-center justify-center gap-4"
         >
           <a
-            href="#community"
+            href="https://t.me/neurixoffical"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group btn-gradient inline-flex items-center gap-2 rounded-full px-7 py-3 text-sm font-semibold text-white"
           >
             Join Community
@@ -65,6 +67,26 @@ export function Hero() {
             <FileText size={16} />
             Read Whitepaper
           </a>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.55 }}
+          className="mx-auto mt-12 grid max-w-2xl grid-cols-3 gap-3"
+        >
+          {[
+            { v: "77.7M", l: "Total Supply" },
+            { v: "BASE", l: "Network" },
+            { v: "0%", l: "Tax" },
+          ].map((s) => (
+            <div key={s.l} className="glass rounded-xl px-3 py-4 text-center">
+              <div className="text-gradient text-xl font-bold md:text-2xl">{s.v}</div>
+              <div className="mt-1 text-[10px] uppercase tracking-widest text-muted-foreground md:text-xs">
+                {s.l}
+              </div>
+            </div>
+          ))}
         </motion.div>
 
         {/* Orb */}
