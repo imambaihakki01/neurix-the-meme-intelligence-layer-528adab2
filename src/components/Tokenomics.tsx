@@ -50,7 +50,7 @@ export function Tokenomics() {
           >
             <div className="absolute inset-8 rounded-full bg-background/95 backdrop-blur-xl flex flex-col items-center justify-center">
               <div className="text-xs font-mono uppercase tracking-widest text-muted-foreground">Total Supply</div>
-              <div className="mt-2 text-3xl md:text-4xl font-bold text-gradient">77,700,000</div>
+              <div className="mt-2 text-3xl md:text-4xl font-bold text-gradient">10,000,000</div>
               <div className="mt-1 text-sm text-soft-cyan">NRX</div>
             </div>
           </div>

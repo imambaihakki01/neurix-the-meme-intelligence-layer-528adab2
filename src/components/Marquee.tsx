@@ -8,7 +8,7 @@ const items = [
   "COMMUNITY POWERED",
   "AI × CULTURE",
   "DECENTRALIZED",
-  "77.7M SUPPLY",
+  "10M SUPPLY",
 ];
 
 export function Marquee() {

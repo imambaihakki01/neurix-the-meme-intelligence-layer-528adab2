@@ -48,7 +48,7 @@ const chapters = [
     body: [
       "Name: Monetra",
       "Symbol: NRX",
-      "Total Supply: 77,700,000",
+      "Total Supply: 10,000,000",
       "Type: Meme / Experimental Asset",
       "Blockchain: ETH BASE",
     ],
