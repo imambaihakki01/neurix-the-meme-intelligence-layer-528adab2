@@ -12,7 +12,7 @@ const principles = [
 export function About() {
   return (
     <Section id="about">
-      <SectionTitle eyebrow="Manifesto" title="About Neurix" />
+      <SectionTitle eyebrow="Manifesto" title="About Monetra" />
 
       <div className="grid gap-8 md:grid-cols-2">
         <motion.div
@@ -23,7 +23,7 @@ export function About() {
           className="glass glass-hover rounded-2xl p-8"
         >
           <p className="text-base leading-relaxed text-foreground/90">
-            Neurix is a community-driven digital asset designed to explore the convergence of
+            Monetra is a community-driven digital asset designed to explore the convergence of
             artificial intelligence narratives and decentralized ecosystems.
           </p>
         </motion.div>
@@ -35,7 +35,7 @@ export function About() {
           className="glass glass-hover rounded-2xl p-8"
         >
           <p className="text-base leading-relaxed text-foreground/90">
-            Rather than positioning itself purely as a utility token or speculative asset, Neurix
+            Rather than positioning itself purely as a utility token or speculative asset, Monetra
             operates as a <span className="text-soft-cyan">narrative layer</span>, where value
             emerges from collective belief, culture, and participation.
           </p>

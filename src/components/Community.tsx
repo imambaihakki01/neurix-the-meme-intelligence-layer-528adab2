@@ -29,7 +29,7 @@ export function Community() {
       <SectionTitle
         eyebrow="Network"
         title="Join The Community"
-        description="Plug into the early network and help shape the Neurix narrative."
+        description="Plug into the early network and help shape the Monetra narrative."
       />
 
       <div className="mx-auto grid max-w-3xl gap-5 sm:grid-cols-2">
@@ -91,7 +91,7 @@ export function Community() {
             <div>
               <div className="mb-1 text-sm font-semibold text-amber-400">Disclaimer</div>
               <p className="text-sm text-muted-foreground">
-                Neurix is an experimental project with no guarantee of financial return.
+                Monetra is an experimental project with no guarantee of financial return.
                 Participation involves risk.
               </p>
             </div>

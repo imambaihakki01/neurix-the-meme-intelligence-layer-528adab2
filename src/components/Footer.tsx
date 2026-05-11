@@ -16,7 +16,7 @@ export function Footer() {
                 <span className="absolute inset-[1.5px] rounded-[10px] bg-background" />
                 <span className="text-gradient relative text-lg font-bold">Ξ</span>
               </span>
-              <span className="text-lg font-bold tracking-wide">NEURIX</span>
+              <span className="text-lg font-bold tracking-wide">MONETRA</span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               The Meme Intelligence Layer — a decentralized experiment where AI narrative meets meme culture.
@@ -68,7 +68,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row">
-          <div>© 2026 NEURIX. All rights reserved.</div>
+          <div>© 2026 MONETRA. All rights reserved.</div>
           <div className="font-mono uppercase tracking-[0.25em]">Built on Base · 0% Tax · Community Owned</div>
         </div>
       </div>

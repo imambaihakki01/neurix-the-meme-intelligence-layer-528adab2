@@ -32,7 +32,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.1 }}
           className="text-gradient mb-6 text-7xl font-bold leading-none tracking-tighter md:text-9xl"
         >
-          NEURIX
+          MONETRA
         </motion.h1>
 
         <motion.div
