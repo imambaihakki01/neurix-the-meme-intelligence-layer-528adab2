@@ -1,11 +1,16 @@
 import { motion } from "framer-motion";
-import { ArrowRight, FileText, Sparkles } from "lucide-react";
+import { ArrowRight, FileText, Sparkles, ShieldCheck } from "lucide-react";
+import { ContractBar } from "./ContractBar";
 
 export function Hero() {
   return (
-    <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pt-24">
+    <section className="relative flex min-h-screen items-center justify-center overflow-hidden px-6 pb-24 pt-32">
       <div className="absolute inset-0 grid-bg opacity-50" />
       <div className="absolute left-1/2 top-1/2 -z-10 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--gradient-glow)] animate-pulse-glow" />
+
+      {/* Floating accent glows */}
+      <div className="pointer-events-none absolute left-10 top-1/3 h-40 w-40 rounded-full bg-soft-cyan/20 blur-3xl" />
+      <div className="pointer-events-none absolute right-10 bottom-1/4 h-52 w-52 rounded-full bg-neon-purple/20 blur-3xl" />
 
       <div className="relative z-10 mx-auto max-w-5xl text-center">
         <motion.div
@@ -14,8 +19,11 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="mb-6 inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs font-medium text-soft-cyan"
         >
-          <Sparkles size={14} />
-          The Meme Intelligence Layer
+          <span className="relative flex h-2 w-2">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-soft-cyan opacity-75" />
+            <span className="relative inline-flex h-2 w-2 rounded-full bg-soft-cyan" />
+          </span>
+          Live on Base · Pre-launch phase
         </motion.div>
 
         <motion.h1
@@ -27,14 +35,15 @@ export function Hero() {
           NEURIX
         </motion.h1>
 
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="mx-auto mb-4 max-w-2xl text-xl font-light text-foreground/90 md:text-2xl"
+          className="mx-auto mb-4 flex flex-wrap items-center justify-center gap-2 text-xl font-light text-foreground/90 md:text-2xl"
         >
+          <Sparkles size={18} className="text-soft-cyan" />
           The Meme Intelligence Layer
-        </motion.p>
+        </motion.div>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -43,6 +52,7 @@ export function Hero() {
           className="mx-auto mb-10 max-w-xl text-base text-muted-foreground"
         >
           A decentralized experiment where AI narrative meets meme culture.
+          Community-owned, narrative-first, built on Base.
         </motion.p>
 
         <motion.div
@@ -70,23 +80,41 @@ export function Hero() {
         </motion.div>
 
         <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+        >
+          <ContractBar />
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.55 }}
-          className="mx-auto mt-12 grid max-w-2xl grid-cols-3 gap-3"
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="mx-auto mt-10 grid max-w-2xl grid-cols-3 gap-3"
         >
           {[
             { v: "77.7M", l: "Total Supply" },
             { v: "BASE", l: "Network" },
             { v: "0%", l: "Tax" },
           ].map((s) => (
-            <div key={s.l} className="glass rounded-xl px-3 py-4 text-center">
+            <div key={s.l} className="glass glass-hover rounded-xl px-3 py-4 text-center">
               <div className="text-gradient text-xl font-bold md:text-2xl">{s.v}</div>
               <div className="mt-1 text-[10px] uppercase tracking-widest text-muted-foreground md:text-xs">
                 {s.l}
               </div>
             </div>
           ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.8 }}
+          className="mt-6 inline-flex items-center gap-2 text-[10px] font-mono uppercase tracking-[0.25em] text-muted-foreground"
+        >
+          <ShieldCheck size={12} className="text-soft-cyan" />
+          Renounced · No Mint · Community Owned
         </motion.div>
 
         {/* Orb */}
@@ -104,7 +132,6 @@ export function Hero() {
             <div className="text-6xl text-gradient font-bold animate-float">Ξ</div>
           </div>
 
-          {/* Orbiting dots */}
           {[0, 60, 120, 180, 240, 300].map((angle, i) => (
             <div
               key={i}

@@ -1,14 +1,18 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Particles } from "@/components/Particles";
 import { MouseGlow } from "@/components/MouseGlow";
+import { ScrollProgress } from "@/components/ScrollProgress";
 import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
+import { Marquee } from "@/components/Marquee";
+import { StatsBand } from "@/components/StatsBand";
 import { About } from "@/components/About";
 import { Tokenomics } from "@/components/Tokenomics";
 import { Roadmap } from "@/components/Roadmap";
 import { HowToBuy } from "@/components/HowToBuy";
 import { Community } from "@/components/Community";
 import { Whitepaper } from "@/components/Whitepaper";
+import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 
 export const Route = createFileRoute("/")({
@@ -48,14 +52,18 @@ function Index() {
     <div className="relative min-h-screen overflow-hidden">
       <Particles />
       <MouseGlow />
+      <ScrollProgress />
       <Navbar />
       <main className="relative z-10">
         <Hero />
+        <Marquee />
+        <StatsBand />
         <About />
         <Tokenomics />
         <Roadmap />
         <HowToBuy />
         <Whitepaper />
+        <FAQ />
         <Community />
       </main>
       <Footer />
