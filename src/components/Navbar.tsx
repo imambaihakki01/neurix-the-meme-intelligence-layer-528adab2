@@ -49,7 +49,7 @@ export function Navbar() {
             <span className="absolute inset-[1.5px] rounded-[10px] bg-background" />
             <span className="text-gradient relative text-lg font-bold">Ξ</span>
           </span>
-          <span className="font-display tracking-wide">NEURIX</span>
+          <span className="font-display tracking-wide">MONETRA</span>
         </a>
 
         <ul className="hidden items-center gap-1 md:flex">

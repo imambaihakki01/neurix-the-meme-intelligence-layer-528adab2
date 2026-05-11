@@ -5,20 +5,20 @@ import { Section, SectionTitle } from "./Section";
 
 const faqs = [
   {
-    q: "What is NEURIX?",
-    a: "NEURIX is a decentralized, narrative-first digital asset built on the Base network. It explores where meme culture and AI-driven storytelling intersect.",
+    q: "What is MONETRA?",
+    a: "MONETRA is a decentralized, narrative-first digital asset built on the Base network. It explores where meme culture and AI-driven storytelling intersect.",
   },
   {
-    q: "Is NEURIX a utility token?",
-    a: "No. NEURIX is positioned as a narrative layer — value emerges from culture, attention, and community participation rather than a traditional utility promise.",
+    q: "Is MONETRA a utility token?",
+    a: "No. MONETRA is positioned as a narrative layer — value emerges from culture, attention, and community participation rather than a traditional utility promise.",
   },
   {
     q: "What chain is it deployed on?",
-    a: "NEURIX is deployed on ETH BASE — Coinbase's Ethereum Layer 2 — for fast, low-cost transactions.",
+    a: "MONETRA is deployed on ETH BASE — Coinbase's Ethereum Layer 2 — for fast, low-cost transactions.",
   },
   {
     q: "Is there a tax on transactions?",
-    a: "No. NEURIX has 0% tax on buys and sells. The contract is designed to be simple and fully community-owned.",
+    a: "No. MONETRA has 0% tax on buys and sells. The contract is designed to be simple and fully community-owned.",
   },
   {
     q: "How can I participate?",
@@ -26,7 +26,7 @@ const faqs = [
   },
   {
     q: "Is this financial advice?",
-    a: "Absolutely not. NEURIX is an experimental project. Crypto assets are volatile and you may lose your entire allocation. Do your own research.",
+    a: "Absolutely not. MONETRA is an experimental project. Crypto assets are volatile and you may lose your entire allocation. Do your own research.",
   },
 ];
 

@@ -7,8 +7,8 @@ const chapters = [
   {
     title: "1. Introduction",
     body: [
-      "Neurix is a decentralized digital asset built around the concept of meme intelligence and narrative-driven value creation.",
-      "In modern crypto ecosystems, value is often derived not only from utility but from attention, culture, and belief systems. Neurix exists at this intersection.",
+      "Monetra is a decentralized digital asset built around the concept of meme intelligence and narrative-driven value creation.",
+      "In modern crypto ecosystems, value is often derived not only from utility but from attention, culture, and belief systems. Monetra exists at this intersection.",
     ],
   },
   {
@@ -27,9 +27,9 @@ const chapters = [
     ],
   },
   {
-    title: "4. Solution: Neurix",
+    title: "4. Solution: Monetra",
     body: [
-      "Neurix introduces a narrative-first model, where:",
+      "Monetra introduces a narrative-first model, where:",
       "• Memes act as carriers of value",
       "• Community acts as the engine",
       "• Blockchain acts as the infrastructure",
@@ -46,7 +46,7 @@ const chapters = [
   {
     title: "6. Token Overview",
     body: [
-      "Name: Neurix",
+      "Name: Monetra",
       "Symbol: NRX",
       "Total Supply: 77,700,000",
       "Type: Meme / Experimental Asset",
@@ -79,7 +79,7 @@ const chapters = [
   {
     title: "11. Conclusion",
     body: [
-      "Neurix represents a shift from utility-first thinking toward narrative-driven ecosystems.",
+      "Monetra represents a shift from utility-first thinking toward narrative-driven ecosystems.",
       "It is not merely a token — but a decentralized experiment in collective intelligence.",
     ],
   },
@@ -90,7 +90,7 @@ export function Whitepaper() {
 
   return (
     <Section id="whitepaper">
-      <SectionTitle eyebrow="Document" title="Whitepaper" description="The full Neurix protocol thesis." />
+      <SectionTitle eyebrow="Document" title="Whitepaper" description="The full Monetra protocol thesis." />
 
       <div className="mx-auto max-w-3xl space-y-3">
         {chapters.map((c, i) => {

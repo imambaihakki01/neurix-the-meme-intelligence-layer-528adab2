@@ -5,7 +5,7 @@ import { Section, SectionTitle } from "./Section";
 const steps = [
   { icon: Wallet, title: "Connect wallet", desc: "Link your Web3 wallet to begin." },
   { icon: Repeat, title: "Swap via DEX", desc: "Exchange ETH for NRX on a decentralized exchange." },
-  { icon: Gem, title: "Hold NRX", desc: "Become part of the Neurix narrative network." },
+  { icon: Gem, title: "Hold NRX", desc: "Become part of the Monetra narrative network." },
 ];
 
 export function HowToBuy() {

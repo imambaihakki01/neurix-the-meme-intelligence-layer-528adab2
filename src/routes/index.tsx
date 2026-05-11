@@ -18,20 +18,20 @@ import { Footer } from "@/components/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NEURIX — The Meme Intelligence Layer" },
+      { title: "MONETRA — The Meme Intelligence Layer" },
       {
         name: "description",
         content:
-          "NEURIX is a decentralized experiment where AI narrative meets meme culture. Community-powered, narrative-first digital asset on ETH Base.",
+          "MONETRA is a decentralized experiment where AI narrative meets meme culture. Community-powered, narrative-first digital asset on ETH Base.",
       },
-      { property: "og:title", content: "NEURIX — The Meme Intelligence Layer" },
+      { property: "og:title", content: "MONETRA — The Meme Intelligence Layer" },
       {
         property: "og:description",
         content: "A decentralized experiment where AI narrative meets meme culture.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "NEURIX — The Meme Intelligence Layer" },
+      { name: "twitter:title", content: "MONETRA — The Meme Intelligence Layer" },
       {
         name: "twitter:description",
         content: "A decentralized experiment where AI narrative meets meme culture.",
