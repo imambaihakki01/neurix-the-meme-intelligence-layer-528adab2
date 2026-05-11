@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Section } from "./Section";
 
 const stats = [
-  { v: "77.7M", l: "Total Supply", s: "Fixed, no inflation" },
+  { v: "10M", l: "Total Supply", s: "Fixed, no inflation" },
   { v: "0%", l: "Tax", s: "Buy & sell" },
   { v: "100%", l: "Community", s: "No private allocation" },
   { v: "BASE", l: "Network", s: "Built on Ethereum L2" },

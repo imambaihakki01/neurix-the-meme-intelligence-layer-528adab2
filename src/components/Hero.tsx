@@ -94,7 +94,7 @@ export function Hero() {
           className="mx-auto mt-10 grid max-w-2xl grid-cols-3 gap-3"
         >
           {[
-            { v: "77.7M", l: "Total Supply" },
+            { v: "10M", l: "Total Supply" },
             { v: "BASE", l: "Network" },
             { v: "0%", l: "Tax" },
           ].map((s) => (
